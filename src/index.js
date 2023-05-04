@@ -1,1 +1,4 @@
-console.log('check 1-2, 1-2')
+import { header, mainDiv, homeBtn, menuBtn, contactBtn } from './header.js';
+import './style.css';
+
+header();
