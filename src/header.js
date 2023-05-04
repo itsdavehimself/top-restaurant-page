@@ -1,3 +1,5 @@
+import headerImg from './bbb-logo.png';
+
 export const mainDiv = document.querySelector('#content'),
 homeBtn = document.createElement('button'),
 menuBtn = document.createElement('button'),
@@ -12,6 +14,7 @@ export function createHeader() {
   headerDiv.classList.add('header-div');
   headerLogoDiv.classList.add('header-logo-div');
   headerLogoImg.classList.add('header-img');
+  headerLogoImg.src = headerImg;
   headerLogoDiv.appendChild(headerLogoImg);
   navBtns.classList.add('nav-btns');
   mainDiv.appendChild(headerDiv);
