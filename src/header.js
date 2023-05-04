@@ -3,7 +3,7 @@ homeBtn = document.createElement('button'),
 menuBtn = document.createElement('button'),
 contactBtn = document.createElement('button');
 
-export function header() {
+export function createHeader() {
   const headerDiv = document.createElement('div');
   const headerLogoDiv = document.createElement('div');
   const navBtns = document.createElement('div');
@@ -26,5 +26,4 @@ export function header() {
   navBtns.appendChild(homeBtn);
   navBtns.appendChild(menuBtn);
   navBtns.appendChild(contactBtn);
-
-}
+};
