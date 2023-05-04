@@ -5,4 +5,4 @@ import { createContact } from './contact.js';
 import './style.css';
 
 createHeader();
-createMenu();
+createHome();
