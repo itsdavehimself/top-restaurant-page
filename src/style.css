@@ -21,8 +21,8 @@ body {
 }
 
 .nav-button {
-  width: 120px;
-  padding: 12px;
+  width: 110px;
+  padding: 8px;
   background-color: #fae639;
   font-size: 1.4rem;
   margin-right: 40px;
@@ -38,7 +38,10 @@ body {
 }
 
 .btn-current {
-  text-decoration:underline;
+  background-color: black;
+  color: #fae639;
+  font-weight: 800;
+  border-radius: 30px;
 }
 
 .header-logo-div {
